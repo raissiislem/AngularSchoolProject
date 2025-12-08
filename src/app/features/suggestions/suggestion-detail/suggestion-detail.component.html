@@ -1,0 +1,7 @@
+<div *ngIf="suggestion">
+  <h2>{{ suggestion.title }}</h2>
+  <p>{{ suggestion.description }}</p>
+  <p>Category: {{ suggestion.category }}</p>
+  <p>Status: {{ suggestion.status }}</p>
+  <button class="btn btn-secondary" (click)="goBack()">Back to list</button>
+</div>
